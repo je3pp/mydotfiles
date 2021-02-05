@@ -1,0 +1,10 @@
+caption always "%{rw} * | @%H | $LOGNAME | %l | %{bw} %c %D | %{-}%-Lw%{rw}%50>%{rW}%n%f* %t %{-}%+Lw%<"
+#caption always "%{rw} * | %H * $LOGNAME | | @%H | %l | %Y-%m-%d %c  | %{bw}%c %D | %{-}%-Lw%{rw}%50>%{rW}%n%f* %t %{-}%+Lw%<"
+autodetach on
+startup_message off
+vbell off
+vbell_msg ""
+bell_msg "!!! Ding !!!"
+#bindkey "^[Od" prev  # change window with ctrl-left
+#bindkey "^[Oc" next  # change window with ctrl-right
+
