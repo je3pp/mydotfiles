@@ -1,0 +1,9 @@
+[credential]
+# git config --global credential.helper store
+# touch ~/.git-credentials
+# chmod 600 ~/.git-credentials
+	helper = store
+
+#[user]
+#	email = 
+#	name =
